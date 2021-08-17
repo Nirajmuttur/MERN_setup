@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "development": "nodemon",
-    "build" : "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
+    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
     "start": "NODE_ENV=production node ./dist/server.generated.js"
   },
   "keywords": [],
@@ -13,9 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "@hot-loader/react-dom": "^17.0.1",
+    "bootstrap": "^4.6.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
     "react-hot-loader": "^4.13.0"
   },
